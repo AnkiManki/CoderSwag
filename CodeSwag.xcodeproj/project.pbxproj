@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D66022A1F3DB56900676055 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6602291F3DB56900676055 /* ProductCell.swift */; };
+		9D66022C1F3DB6F200676055 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66022B1F3DB6F200676055 /* Product.swift */; };
 		9D8B5E0F1F3D9896009F2882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B5E0E1F3D9896009F2882 /* AppDelegate.swift */; };
 		9D8B5E111F3D9896009F2882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B5E101F3D9896009F2882 /* ViewController.swift */; };
 		9D8B5E141F3D9896009F2882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B5E121F3D9896009F2882 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D6602291F3DB56900676055 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		9D66022B1F3DB6F200676055 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9D8B5E0B1F3D9896009F2882 /* CodeSwag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSwag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8B5E0E1F3D9896009F2882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8B5E101F3D9896009F2882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				9D8B5E231F3D9D79009F2882 /* CategoryCell.swift */,
+				9D6602291F3DB56900676055 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				9D8B5E251F3D9F84009F2882 /* Category.swift */,
+				9D66022B1F3DB6F200676055 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				9D8B5E2B1F3DA1A4009F2882 /* DataServices.swift in Sources */,
 				9D8B5E111F3D9896009F2882 /* ViewController.swift in Sources */,
 				9D8B5E0F1F3D9896009F2882 /* AppDelegate.swift in Sources */,
+				9D66022A1F3DB56900676055 /* ProductCell.swift in Sources */,
 				9D8B5E241F3D9D79009F2882 /* CategoryCell.swift in Sources */,
 				9D8B5E261F3D9F84009F2882 /* Category.swift in Sources */,
+				9D66022C1F3DB6F200676055 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
