@@ -12,6 +12,9 @@
 		9D8B5E141F3D9896009F2882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B5E121F3D9896009F2882 /* Main.storyboard */; };
 		9D8B5E161F3D9896009F2882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B5E151F3D9896009F2882 /* Assets.xcassets */; };
 		9D8B5E191F3D9896009F2882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B5E171F3D9896009F2882 /* LaunchScreen.storyboard */; };
+		9D8B5E241F3D9D79009F2882 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B5E231F3D9D79009F2882 /* CategoryCell.swift */; };
+		9D8B5E261F3D9F84009F2882 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B5E251F3D9F84009F2882 /* Category.swift */; };
+		9D8B5E2B1F3DA1A4009F2882 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B5E2A1F3DA1A4009F2882 /* DataServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9D8B5E151F3D9896009F2882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D8B5E181F3D9896009F2882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D8B5E1A1F3D9896009F2882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8B5E231F3D9D79009F2882 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		9D8B5E251F3D9F84009F2882 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9D8B5E2A1F3DA1A4009F2882 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		9D8B5E0D1F3D9896009F2882 /* CodeSwag */ = {
 			isa = PBXGroup;
 			children = (
+				9D8B5E271F3DA17C009F2882 /* Services */,
+				9D8B5E221F3D9CF7009F2882 /* Model */,
+				9D8B5E211F3D9CF3009F2882 /* View */,
+				9D8B5E201F3D9CE7009F2882 /* Controller */,
 				9D8B5E0E1F3D9896009F2882 /* AppDelegate.swift */,
-				9D8B5E101F3D9896009F2882 /* ViewController.swift */,
 				9D8B5E121F3D9896009F2882 /* Main.storyboard */,
 				9D8B5E151F3D9896009F2882 /* Assets.xcassets */,
 				9D8B5E171F3D9896009F2882 /* LaunchScreen.storyboard */,
 				9D8B5E1A1F3D9896009F2882 /* Info.plist */,
 			);
 			path = CodeSwag;
+			sourceTree = "<group>";
+		};
+		9D8B5E201F3D9CE7009F2882 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D8B5E101F3D9896009F2882 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D8B5E211F3D9CF3009F2882 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D8B5E231F3D9D79009F2882 /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D8B5E221F3D9CF7009F2882 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D8B5E251F3D9F84009F2882 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D8B5E271F3DA17C009F2882 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9D8B5E2A1F3DA1A4009F2882 /* DataServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8B5E2B1F3DA1A4009F2882 /* DataServices.swift in Sources */,
 				9D8B5E111F3D9896009F2882 /* ViewController.swift in Sources */,
 				9D8B5E0F1F3D9896009F2882 /* AppDelegate.swift in Sources */,
+				9D8B5E241F3D9D79009F2882 /* CategoryCell.swift in Sources */,
+				9D8B5E261F3D9F84009F2882 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
